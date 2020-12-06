@@ -1,0 +1,269 @@
+/*font-family: 'Roboto', sans-serif;*/
+body{
+	margin: 0px;
+	padding: 0px;
+}
+/*header start*/
+header{
+}
+.container {
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+
+.logo {
+	
+	width: 17%;
+	float: left;
+
+
+}
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	margin-top: 10px;
+	width: 75%;
+	float: right;
+	
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family:sans-serif;
+	font-size:16px;
+	font-weight:400;
+	color:#4F5765;
+	text-decoration: none;
+	padding: 0 20px;
+	display: inline-block;
+	transition: .3s;
+
+} 
+.menu ul li a:hover{
+	color:#C92624;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0; 
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../Images/notary_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	/*min-height: 400px;*/
+}
+.b_content{
+	margin: 100px 0;
+	max-width: 45%;
+}
+.b_content h1{
+	margin: 0 0 40px;
+	font-family:sans-serif;
+	font-size:57px;
+	color:white;
+	letter-spacing: 1px;
+	line-height: 65px;
+	word-spacing: 1px; 
+}
+.b_content p{
+	margin: 0 0 20px;
+	font-family:sans-serif;
+	font-size:17px;
+	color:white;
+ }
+.b_content button{
+	margin-top: 20px;
+	width: 265px;
+	height: 50px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #BD233F;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .3s;
+}
+.b_content button:hover{
+	background-color: white;
+	color:#BD233F;
+}
+/*banner end*/
+/*works start*/
+.works{
+	padding: 100px 0;
+}
+.top{
+	margin: 0 auto 60px;
+	width: 70%;
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+.top h1{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #151515;
+	text-transform: uppercase;
+}
+.top p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #707477;
+	line-height: 25px;
+}
+/*singel item staet*/
+.bottom{
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.singel_item{
+	margin-right: 2%;
+    float: left;
+    text-align: center;
+    width: 28%;
+    /* border: 1px solid red; */
+    padding: 0 2%;
+}
+.singel_item:last-child{
+	margin-right: 0;
+}
+.singel_item img{
+	width: 40%;
+}
+.singel_item p{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #151515;
+}
+/*singel item end*/
+/*works end*/
+/*whole process start*/
+.process{
+	    margin: 100px 55px;
+}
+.p_wrapper{
+    overflow: hidden;
+}
+.p_content{
+	width: 45%;
+    float: left;
+}
+.p_content h1{
+	font-family: sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.p_content p{
+	font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.p_content button{
+	margin-top: 20px;
+	width: 265px;
+	height: 50px;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #BD233F;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .3s;
+}
+.p_content button:hover{
+	background-color: white;
+	color:#BD233F;
+}
+.p_demo{
+	width: 40%;
+    float: right;
+}
+.p_demo img{
+	width: 100%;
+}
+/*whole process end*/
+/*features start*/
+.feature{
+	padding: 50px 0 40px;
+}
+.feature_item{
+
+}
+.feature_singel_item{
+	width: 30%;
+    float: left;
+    padding: 2%;
+    margin: 1.5%;
+    box-sizing: border-box;
+    transition: box-shadow .4s;
+    box-shadow: 2px -3px 15px 2px rgba(0,0,0,0.84);
+}
+.feature_singel_item img{
+    width: 19%;
+    margin: 0px 130px;
+}
+.feature_singel_item h4{
+	font-family: sans-serif;
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.feature_singel_item p{
+	margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    color:#4F5765;
+    line-height: 20px;
+    text-align: center;
+}
+
+.feature button {
+	margin: 55px 0px 0px 454px;
+    width: 265px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #BD233F;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.feature button:hover{
+	background-color: white;
+	color:#BD233F;
+}
+/*features end*/
+/* footer start */
+.footer{
+   background-color: #535D69;
+    text-align: center;
+}
+.p{
+
+}
+/* footer end */
